@@ -1,0 +1,20 @@
+{
+    "name": "wrossmann/costrenc",
+    "description": "Stream filter to convert character encoding on-the-fly",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "wrossmann\\Costrenc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wade Rossmann",
+            "email": "wrossmann@gmail.com"
+        }
+    ],
+    "require": {
+		"ext-mbstring": "*"
+	}
+}
